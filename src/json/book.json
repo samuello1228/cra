@@ -1,0 +1,665 @@
+[
+  {
+    "shasum": "541b18d8a0db27b8fd842106ce47ff8e5c72d6ce",
+    "expression": {
+      "type": "operators",
+      "name": "iff",
+      "operands": [
+        {
+          "type": "operators",
+          "name": "not",
+          "operands": [
+            {
+              "type": "constants",
+              "name": "True"
+            }
+          ]
+        },
+        {
+          "type": "constants",
+          "name": "False"
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "e474e2576ea94944bffb2bd419c6e44ef4be5252",
+    "expression": {
+      "type": "operators",
+      "name": "iff",
+      "operands": [
+        {
+          "type": "operators",
+          "name": "not",
+          "operands": [
+            {
+              "type": "constants",
+              "name": "False"
+            }
+          ]
+        },
+        {
+          "type": "constants",
+          "name": "True"
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "dde7facd652a6a438cdee5e1b7fa2e7fb9b00542",
+    "expression": {
+      "type": "operators",
+      "name": "iff",
+      "operands": [
+        {
+          "type": "operators",
+          "name": "and",
+          "operands": [
+            {
+              "type": "constants",
+              "name": "True"
+            },
+            {
+              "type": "constants",
+              "name": "True"
+            }
+          ]
+        },
+        {
+          "type": "constants",
+          "name": "True"
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "f0885fefa97fd680b3ed09d8695c49ffdb891557",
+    "expression": {
+      "type": "operators",
+      "name": "iff",
+      "operands": [
+        {
+          "type": "operators",
+          "name": "and",
+          "operands": [
+            {
+              "type": "constants",
+              "name": "True"
+            },
+            {
+              "type": "constants",
+              "name": "False"
+            }
+          ]
+        },
+        {
+          "type": "constants",
+          "name": "False"
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "ac8a53787c1abfe713ddd0ad9420a1ab84e2edf5",
+    "expression": {
+      "type": "operators",
+      "name": "iff",
+      "operands": [
+        {
+          "type": "operators",
+          "name": "and",
+          "operands": [
+            {
+              "type": "constants",
+              "name": "False"
+            },
+            {
+              "type": "constants",
+              "name": "True"
+            }
+          ]
+        },
+        {
+          "type": "constants",
+          "name": "False"
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "ab87a43cc2d6a73fc0bb677d86b584ec015869c9",
+    "expression": {
+      "type": "operators",
+      "name": "iff",
+      "operands": [
+        {
+          "type": "operators",
+          "name": "and",
+          "operands": [
+            {
+              "type": "constants",
+              "name": "False"
+            },
+            {
+              "type": "constants",
+              "name": "False"
+            }
+          ]
+        },
+        {
+          "type": "constants",
+          "name": "False"
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "0f1bb4c4ec90992e2971a27ee66beba8b3f943b2",
+    "expression": {
+      "type": "operators",
+      "name": "iff",
+      "operands": [
+        {
+          "type": "operators",
+          "name": "or",
+          "operands": [
+            {
+              "type": "constants",
+              "name": "True"
+            },
+            {
+              "type": "constants",
+              "name": "True"
+            }
+          ]
+        },
+        {
+          "type": "constants",
+          "name": "True"
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "707733a7937963e5869687bb08be169dc124db5b",
+    "expression": {
+      "type": "operators",
+      "name": "iff",
+      "operands": [
+        {
+          "type": "operators",
+          "name": "or",
+          "operands": [
+            {
+              "type": "constants",
+              "name": "True"
+            },
+            {
+              "type": "constants",
+              "name": "False"
+            }
+          ]
+        },
+        {
+          "type": "constants",
+          "name": "True"
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "5e1eea9ca4ba8d4a5ef53785e3a28bd19ea911c5",
+    "expression": {
+      "type": "operators",
+      "name": "iff",
+      "operands": [
+        {
+          "type": "operators",
+          "name": "or",
+          "operands": [
+            {
+              "type": "constants",
+              "name": "False"
+            },
+            {
+              "type": "constants",
+              "name": "True"
+            }
+          ]
+        },
+        {
+          "type": "constants",
+          "name": "True"
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "cfe40090b308323d3d40138ed227ac8e7fe08b6f",
+    "expression": {
+      "type": "operators",
+      "name": "iff",
+      "operands": [
+        {
+          "type": "operators",
+          "name": "or",
+          "operands": [
+            {
+              "type": "constants",
+              "name": "False"
+            },
+            {
+              "type": "constants",
+              "name": "False"
+            }
+          ]
+        },
+        {
+          "type": "constants",
+          "name": "False"
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "46778859fe4427f08b8cb0c832b2f66f53ce9326",
+    "expression": {
+      "type": "operators",
+      "name": "and",
+      "isSuper": true,
+      "deps": [
+        {
+          "variable": {
+            "type": "variable_declare",
+            "name": "a"
+          },
+          "set": {
+            "type": "constants",
+            "name": "boolean"
+          }
+        },
+        {
+          "variable": {
+            "type": "variable_declare",
+            "name": "b"
+          },
+          "set": {
+            "type": "constants",
+            "name": "boolean"
+          }
+        }
+      ],
+      "operands": [
+        {
+          "type": "operators",
+          "name": "iff",
+          "operands": [
+            {
+              "type": "operators",
+              "name": "iff",
+              "operands": [
+                {
+                  "type": "variable",
+                  "name": "a"
+                },
+                {
+                  "type": "variable",
+                  "name": "b"
+                }
+              ]
+            },
+            {
+              "type": "operators",
+              "name": "or",
+              "operands": [
+                {
+                  "type": "operators",
+                  "name": "and",
+                  "operands": [
+                    {
+                      "type": "variable",
+                      "name": "a"
+                    },
+                    {
+                      "type": "variable",
+                      "name": "b"
+                    }
+                  ]
+                },
+                {
+                  "type": "operators",
+                  "name": "and",
+                  "operands": [
+                    {
+                      "type": "operators",
+                      "name": "not",
+                      "operands": [
+                        {
+                          "type": "variable",
+                          "name": "a"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "operators",
+                      "name": "not",
+                      "operands": [
+                        {
+                          "type": "variable",
+                          "name": "b"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "2b7134aeb1351e83b7e2b2a846cb5da2710236d7",
+    "expression": {
+      "type": "operators",
+      "name": "and",
+      "isSuper": true,
+      "deps": [
+        {
+          "variable": {
+            "type": "variable_declare",
+            "name": "a"
+          },
+          "set": {
+            "type": "constants",
+            "name": "boolean"
+          }
+        },
+        {
+          "variable": {
+            "type": "variable_declare",
+            "name": "b"
+          },
+          "set": {
+            "type": "constants",
+            "name": "boolean"
+          }
+        }
+      ],
+      "operands": [
+        {
+          "type": "operators",
+          "name": "iff",
+          "operands": [
+            {
+              "type": "operators",
+              "name": "implies",
+              "operands": [
+                {
+                  "type": "variable",
+                  "name": "a"
+                },
+                {
+                  "type": "variable",
+                  "name": "b"
+                }
+              ]
+            },
+            {
+              "type": "operators",
+              "name": "or",
+              "operands": [
+                {
+                  "type": "operators",
+                  "name": "not",
+                  "operands": [
+                    {
+                      "type": "variable",
+                      "name": "a"
+                    }
+                  ]
+                },
+                {
+                  "type": "variable",
+                  "name": "b"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "01e5e9d07222c22d567200411735dabfcfee84b7",
+    "expression": {
+      "type": "operators",
+      "name": "and",
+      "isSuper": true,
+      "deps": [
+        {
+          "variable": {
+            "type": "variable_declare",
+            "name": "a"
+          },
+          "set": {
+            "type": "constants",
+            "name": "boolean"
+          }
+        }
+      ],
+      "operands": [
+        {
+          "type": "operators",
+          "name": "iff",
+          "operands": [
+            {
+              "type": "operators",
+              "name": "not",
+              "operands": [
+                {
+                  "type": "operators",
+                  "name": "not",
+                  "operands": [
+                    {
+                      "type": "variable",
+                      "name": "a"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "variable",
+              "name": "a"
+            }
+          ]
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "4798d359b13676f634f5657ffa1bbfad48bb4886",
+    "expression": {
+      "type": "operators",
+      "name": "and",
+      "isSuper": true,
+      "deps": [
+        {
+          "variable": {
+            "type": "variable_declare",
+            "name": "a"
+          },
+          "set": {
+            "type": "constants",
+            "name": "boolean"
+          }
+        },
+        {
+          "variable": {
+            "type": "variable_declare",
+            "name": "b"
+          },
+          "set": {
+            "type": "constants",
+            "name": "boolean"
+          }
+        }
+      ],
+      "operands": [
+        {
+          "type": "operators",
+          "name": "iff",
+          "operands": [
+            {
+              "type": "operators",
+              "name": "not",
+              "operands": [
+                {
+                  "type": "operators",
+                  "name": "and",
+                  "operands": [
+                    {
+                      "type": "variable",
+                      "name": "a"
+                    },
+                    {
+                      "type": "variable",
+                      "name": "b"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "operators",
+              "name": "or",
+              "operands": [
+                {
+                  "type": "operators",
+                  "name": "not",
+                  "operands": [
+                    {
+                      "type": "variable",
+                      "name": "a"
+                    }
+                  ]
+                },
+                {
+                  "type": "operators",
+                  "name": "not",
+                  "operands": [
+                    {
+                      "type": "variable",
+                      "name": "b"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "proof_type": "Axiom"
+  },
+  {
+    "shasum": "d96e339c1ff1fa42e1fc20d0322d6b5e0e7ddc4c",
+    "expression": {
+      "type": "operators",
+      "name": "and",
+      "isSuper": true,
+      "deps": [
+        {
+          "variable": {
+            "type": "variable_declare",
+            "name": "a"
+          },
+          "set": {
+            "type": "constants",
+            "name": "boolean"
+          }
+        },
+        {
+          "variable": {
+            "type": "variable_declare",
+            "name": "b"
+          },
+          "set": {
+            "type": "constants",
+            "name": "boolean"
+          }
+        }
+      ],
+      "operands": [
+        {
+          "type": "operators",
+          "name": "iff",
+          "operands": [
+            {
+              "type": "operators",
+              "name": "not",
+              "operands": [
+                {
+                  "type": "operators",
+                  "name": "or",
+                  "operands": [
+                    {
+                      "type": "variable",
+                      "name": "a"
+                    },
+                    {
+                      "type": "variable",
+                      "name": "b"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "operators",
+              "name": "and",
+              "operands": [
+                {
+                  "type": "operators",
+                  "name": "not",
+                  "operands": [
+                    {
+                      "type": "variable",
+                      "name": "a"
+                    }
+                  ]
+                },
+                {
+                  "type": "operators",
+                  "name": "not",
+                  "operands": [
+                    {
+                      "type": "variable",
+                      "name": "b"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "proof_type": null
+  }
+]
